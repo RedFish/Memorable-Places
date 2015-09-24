@@ -1,6 +1,6 @@
 # Memorable Places iOS Application  
   
-This i0S 9 application is using Swift 2 (Xcode 7). It allows to save places by doing long press on a map. All places are stored in a table.  
+This iOS 9 application is using Swift 2 (Xcode 7). It allows to save places by doing long press on a map. All places are stored in a table.  
 
 The app uses :
 - Tab Bar Controller
