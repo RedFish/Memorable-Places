@@ -109,7 +109,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
 		let region:MKCoordinateRegion = MKCoordinateRegionMake(coordinate, span)
 		map.setRegion(region, animated: true)
 		
-		
+		mapManager.stopUpdatingLocation()
 	}
 
 

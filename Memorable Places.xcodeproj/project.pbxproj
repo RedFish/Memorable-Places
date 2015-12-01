@@ -15,7 +15,7 @@
 		D41D43601BAD8E5E00DFBB1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D41D435E1BAD8E5E00DFBB1F /* LaunchScreen.storyboard */; };
 		D41D436B1BAD8E5E00DFBB1F /* Memorable_PlacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41D436A1BAD8E5E00DFBB1F /* Memorable_PlacesTests.swift */; };
 		D41D43761BAD8E5E00DFBB1F /* Memorable_PlacesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41D43751BAD8E5E00DFBB1F /* Memorable_PlacesUITests.swift */; };
-		D41D43841BAD8F3400DFBB1F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41D43831BAD8F3400DFBB1F /* TableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D41D43841BAD8F3400DFBB1F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41D43831BAD8F3400DFBB1F /* TableViewController.swift */; };
 		D41D43861BAD98E300DFBB1F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D41D43851BAD98E300DFBB1F /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D41D434F1BAD8E5E00DFBB1F /* Memorable Places.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memorable Places.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D41D434F1BAD8E5E00DFBB1F /* Places.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Places.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D41D43521BAD8E5E00DFBB1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D41D43541BAD8E5E00DFBB1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D41D43571BAD8E5E00DFBB1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 		D41D43501BAD8E5E00DFBB1F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D41D434F1BAD8E5E00DFBB1F /* Memorable Places.app */,
+				D41D434F1BAD8E5E00DFBB1F /* Places.app */,
 				D41D43661BAD8E5E00DFBB1F /* Memorable PlacesTests.xctest */,
 				D41D43711BAD8E5E00DFBB1F /* Memorable PlacesUITests.xctest */,
 			);
@@ -138,9 +138,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D41D434E1BAD8E5E00DFBB1F /* Memorable Places */ = {
+		D41D434E1BAD8E5E00DFBB1F /* Places */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D41D437A1BAD8E5E00DFBB1F /* Build configuration list for PBXNativeTarget "Memorable Places" */;
+			buildConfigurationList = D41D437A1BAD8E5E00DFBB1F /* Build configuration list for PBXNativeTarget "Places" */;
 			buildPhases = (
 				D41D434B1BAD8E5E00DFBB1F /* Sources */,
 				D41D434C1BAD8E5E00DFBB1F /* Frameworks */,
@@ -150,9 +150,9 @@
 			);
 			dependencies = (
 			);
-			name = "Memorable Places";
+			name = Places;
 			productName = "Memorable Places";
-			productReference = D41D434F1BAD8E5E00DFBB1F /* Memorable Places.app */;
+			productReference = D41D434F1BAD8E5E00DFBB1F /* Places.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D41D43651BAD8E5E00DFBB1F /* Memorable PlacesTests */ = {
@@ -226,7 +226,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D41D434E1BAD8E5E00DFBB1F /* Memorable Places */,
+				D41D434E1BAD8E5E00DFBB1F /* Places */,
 				D41D43651BAD8E5E00DFBB1F /* Memorable PlacesTests */,
 				D41D43701BAD8E5E00DFBB1F /* Memorable PlacesUITests */,
 			);
@@ -293,12 +293,12 @@
 /* Begin PBXTargetDependency section */
 		D41D43681BAD8E5E00DFBB1F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D41D434E1BAD8E5E00DFBB1F /* Memorable Places */;
+			target = D41D434E1BAD8E5E00DFBB1F /* Places */;
 			targetProxy = D41D43671BAD8E5E00DFBB1F /* PBXContainerItemProxy */;
 		};
 		D41D43731BAD8E5E00DFBB1F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D41D434E1BAD8E5E00DFBB1F /* Memorable Places */;
+			target = D41D434E1BAD8E5E00DFBB1F /* Places */;
 			targetProxy = D41D43721BAD8E5E00DFBB1F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -486,13 +486,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D41D437A1BAD8E5E00DFBB1F /* Build configuration list for PBXNativeTarget "Memorable Places" */ = {
+		D41D437A1BAD8E5E00DFBB1F /* Build configuration list for PBXNativeTarget "Places" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D41D437B1BAD8E5E00DFBB1F /* Debug */,
 				D41D437C1BAD8E5E00DFBB1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D41D437D1BAD8E5E00DFBB1F /* Build configuration list for PBXNativeTarget "Memorable PlacesTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +502,7 @@
 				D41D437F1BAD8E5E00DFBB1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D41D43801BAD8E5E00DFBB1F /* Build configuration list for PBXNativeTarget "Memorable PlacesUITests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +511,7 @@
 				D41D43821BAD8E5E00DFBB1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
